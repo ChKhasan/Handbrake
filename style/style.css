@@ -834,4 +834,28 @@ align-items: center;    }
             
             
             }
+            .for-p p:first-child,.for-p p:last-child {
+                font-family: 'Inter', sans-serif;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0.01em;
+                text-align: left;
+                color: black;
+                margin-bottom: 0;
+            
+            }
+            .for-p p:nth-child(2) {
+                font-family: 'Inter', sans-serif;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 700;
+                margin-bottom: 0;
+            
+                line-height: 21px;
+                letter-spacing: 0.01em;
+                text-align: left;
+                color: white;
+            }
 }
